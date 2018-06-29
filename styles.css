@@ -1,0 +1,11 @@
+/* Navigation bar */
+
+.navbar-custom
+{
+    background-color: #f7e371 !important;
+}
+
+.nav-item:hover
+{
+    background-color: #f7c171;
+}
