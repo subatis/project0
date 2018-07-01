@@ -21,3 +21,16 @@
 {
     margin-top: 50px;
 }
+
+/* Thumbnail galleries */
+
+.thumbnail
+{
+    margin-top: 50px;
+}
+
+.thumbnailImage
+{
+    width: 241px;
+    height: 200px;
+}
