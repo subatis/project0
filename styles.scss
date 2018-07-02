@@ -8,9 +8,18 @@ $color-button-hover: #e88936;
 $std-spacing: 2em;
 $rounded-borders: 15px;
 
+/* For inheritance */
+
+%std-element
+{
+    background-color: $color-bg;
+    padding-top: 1em;
+    border-radius: $rounded-borders;
+}
+
 /* Navigation bar */
 
-#navigationRow
+#navigation-row
 {
     margin-bottom: $std-spacing;
 }
@@ -38,7 +47,7 @@ $rounded-borders: 15px;
 
 /* Services page */
 
-.thumbnailImage
+.thumbnail-image
 {
     width: 241px;
     height: 200px;
@@ -56,14 +65,12 @@ table, th, td
     border: 1px solid black;
 }
 
-#pricingRow
+#pricing-row
 {
-    background-color: $color-bg;
-    padding-top: 1em;
-    border-radius: $rounded-borders;
+    @extend %std-element;
 }
 
-#tableFootnotes
+#table-footnotes
 {
     font-size: small;
     font-style: italic;
@@ -80,11 +87,9 @@ table, th, td
 /* General */
 .page-element
 {
+    @extend %std-element;
     margin-bottom: 2em;
-    padding-top: 1em;
     padding-bottom: 1em;
-    border-radius: $rounded-borders;
-    background-color: $color-bg;
 }
 
 /* Buttons */
@@ -101,35 +106,35 @@ table, th, td
 }
 
 /* Call to action */
-#callToAction
+#call-to-action
 {
     margin-top: $std-spacing;
 }
 
-#letsRoll
+#lets-roll
 {
     color: $color-button;
 }
 
-#letsRoll:hover
+#lets-roll:hover
 {
     color: $color-button-hover;
 }
 
 /* Footer */
 
-#footerRow
+#footer-row
 {
     margin-top: 3em;
     background-color: $color-nav;
 }
 
-#footerRow a
+#footer-row a
 {
     color: $color-button;
 }
 
-#footerRow a:hover
+#footer-row a:hover
 {
     color: $color-button-hover;
 }

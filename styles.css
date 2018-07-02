@@ -1,6 +1,12 @@
 /* Global values */
+/* For inheritance */
+#pricing-row, .page-element {
+  background-color: #efe9c9;
+  padding-top: 1em;
+  border-radius: 15px; }
+
 /* Navigation bar */
-#navigationRow {
+#navigation-row {
   margin-bottom: 2em; }
 
 .navbar-custom {
@@ -17,10 +23,7 @@
   background-color: #efe9c9; }
 
 /* Services page */
-.thumbnail {
-  /*margin-top: $std-spacing;*/ }
-
-.thumbnailImage {
+.thumbnail-image {
   width: 241px;
   height: 200px; }
 
@@ -31,12 +34,7 @@ table {
 table, th, td {
   border: 1px solid black; }
 
-#pricingRow {
-  background-color: #efe9c9;
-  padding-top: 1em;
-  border-radius: 15px; }
-
-#tableFootnotes {
+#table-footnotes {
   font-size: small;
   font-style: italic; }
 
@@ -48,10 +46,7 @@ table, th, td {
 /* General */
 .page-element {
   margin-bottom: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-radius: 15px;
-  background-color: #efe9c9; }
+  padding-bottom: 1em; }
 
 /* Buttons */
 [role=button] {
@@ -63,24 +58,24 @@ table, th, td {
   border-color: #e88936; }
 
 /* Call to action */
-#callToAction {
+#call-to-action {
   margin-top: 2em; }
 
-#letsRoll {
+#lets-roll {
   color: #e8a137; }
 
-#letsRoll:hover {
+#lets-roll:hover {
   color: #e88936; }
 
 /* Footer */
-#footerRow {
+#footer-row {
   margin-top: 3em;
   background-color: #f7e371; }
 
-#footerRow a {
+#footer-row a {
   color: #e8a137; }
 
-#footerRow a:hover {
+#footer-row a:hover {
   color: #e88936; }
 
 /*# sourceMappingURL=styles.css.map */
