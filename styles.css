@@ -33,6 +33,21 @@
   margin-top: 1em;
   margin-bottom: 1em; }
 
+/* Pricing page */
+table {
+  width: 100%; }
+
+table, th, td {
+  border: 1px solid black; }
+
+#pricingRow {
+  background-color: #efe9c9;
+  padding-top: 1em; }
+
+#tableFootnotes {
+  font-size: small;
+  font-style: italic; }
+
 /* About page */
 .media-object {
   width: 175px;

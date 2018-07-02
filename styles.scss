@@ -61,6 +61,30 @@ $std-spacing: 2em;
     margin-bottom: 1em;
 }
 
+/* Pricing page */
+
+table
+{
+    width: 100%;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+
+#pricingRow
+{
+    background-color: $color-bg;
+    padding-top: 1em;
+}
+
+#tableFootnotes
+{
+    font-size: small;
+    font-style: italic;
+}
+
 /* About page */
 
 .media-object
