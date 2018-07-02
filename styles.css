@@ -20,6 +20,12 @@
 #footerRow {
   margin-top: 50px; }
 
+#footerRow a {
+  color: #e8a137; }
+
+#footerRow a:hover {
+  color: #e88936; }
+
 /* Thumbnail galleries */
 .thumbnail {
   margin-top: 50px; }
@@ -32,5 +38,21 @@
 .media-object {
   width: 175px;
   height: 200px; }
+
+/* Buttons */
+[role=button] {
+  background-color: #e8a137;
+  border-color: #e8a137; }
+
+[role=button]:hover {
+  background-color: #e88936;
+  border-color: #e88936; }
+
+/* Call to action */
+#letsRoll {
+  color: #e8a137; }
+
+#letsRoll:hover {
+  color: #e88936; }
 
 /*# sourceMappingURL=styles.css.map */

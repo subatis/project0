@@ -1,8 +1,9 @@
 /* Global values */
 $color-nav: #f7e371;
 $color-navHover: #f7c171;
-
 $color-bg: #efe9c9;
+$color-button: #e8a137;
+$color-button-hover: #e88936;
 
 /* Navigation bar */
 
@@ -40,6 +41,16 @@ $color-bg: #efe9c9;
     margin-top: 50px;
 }
 
+#footerRow a
+{
+    color: $color-button;
+}
+
+#footerRow a:hover
+{
+    color: $color-button-hover;
+}
+
 /* Thumbnail galleries */
 
 .thumbnail
@@ -59,4 +70,28 @@ $color-bg: #efe9c9;
 {
     width: 175px;
     height: 200px;
+}
+
+/* Buttons */
+[role=button]
+{
+    background-color: $color-button;
+    border-color: $color-button;
+}
+
+[role=button]:hover
+{
+    background-color: $color-button-hover;
+    border-color: $color-button-hover;
+}
+
+/* Call to action */
+#letsRoll
+{
+    color: $color-button;
+}
+
+#letsRoll:hover
+{
+    color: $color-button-hover;
 }
