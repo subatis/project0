@@ -16,6 +16,7 @@
 .jumbotron {
   background-color: #efe9c9; }
 
+/* Titles */
 /* Footer */
 #footerRow {
   margin-top: 50px; }
@@ -28,11 +29,16 @@
 
 /* Thumbnail galleries */
 .thumbnail {
-  margin-top: 50px; }
+  margin-top: 25px; }
 
 .thumbnailImage {
   width: 241px;
   height: 200px; }
+
+/* FAQ */
+.faq {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 /* Bios */
 .media-object {
@@ -49,6 +55,9 @@
   border-color: #e88936; }
 
 /* Call to action */
+#callToAction {
+  margin-top: 25px; }
+
 #letsRoll {
   color: #e8a137; }
 

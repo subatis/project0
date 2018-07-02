@@ -33,6 +33,12 @@ $color-button-hover: #e88936;
     background-color: $color-bg;
 }
 
+/* Titles */
+h1
+{
+
+}
+
 
 /* Footer */
 
@@ -55,13 +61,21 @@ $color-button-hover: #e88936;
 
 .thumbnail
 {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .thumbnailImage
 {
     width: 241px;
     height: 200px;
+}
+
+/* FAQ */
+
+.faq
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Bios */
@@ -86,6 +100,11 @@ $color-button-hover: #e88936;
 }
 
 /* Call to action */
+#callToAction
+{
+    margin-top: 25px;
+}
+
 #letsRoll
 {
     color: $color-button;
