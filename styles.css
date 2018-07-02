@@ -1,44 +1,28 @@
 /* Navigation bar */
+.navbar-custom {
+  background-color: #f7e371 !important; }
 
-.navbar-custom
-{
-    background-color: #f7e371 !important;
-}
+.nav-item:hover {
+  background-color: #f7c171; }
 
-.nav-item:hover
-{
-    background-color: #f7c171;
-}
-
-.navbar-brand
-{
-    margin-right: 60px;
-}
+.navbar-brand {
+  margin-right: 60px; }
 
 /* Footer */
-
-#footerRow
-{
-    margin-top: 50px;
-}
+#footerRow {
+  margin-top: 50px; }
 
 /* Thumbnail galleries */
+.thumbnail {
+  margin-top: 50px; }
 
-.thumbnail
-{
-    margin-top: 50px;
-}
-
-.thumbnailImage
-{
-    width: 241px;
-    height: 200px;
-}
+.thumbnailImage {
+  width: 241px;
+  height: 200px; }
 
 /* Bios */
+.media-object {
+  width: 175px;
+  height: 200px; }
 
-.media-object
-{
-    width: 175px;
-    height: 200px;
-}
+/*# sourceMappingURL=styles.css.map */
