@@ -1,7 +1,7 @@
 /* Global values */
 /* Navigation bar */
 #navigationRow {
-  margin-bottom: 25px; }
+  margin-bottom: 2em; }
 
 .navbar-custom {
   background-color: #f7e371 !important; }
@@ -10,7 +10,7 @@
   background-color: #f7c171; }
 
 .navbar-brand {
-  margin-right: 60px; }
+  margin-right: 4em; }
 
 /* Homepage - Jumbotrons */
 .jumbotron {
@@ -19,7 +19,7 @@
 /* Titles */
 /* Footer */
 #footerRow {
-  margin-top: 50px; }
+  margin-top: 3em; }
 
 #footerRow a {
   color: #e8a137; }
@@ -29,7 +29,7 @@
 
 /* Thumbnail galleries */
 .thumbnail {
-  margin-top: 25px; }
+  margin-top: 2em; }
 
 .thumbnailImage {
   width: 241px;
@@ -37,8 +37,8 @@
 
 /* FAQ */
 .faq {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-top: 1em;
+  margin-bottom: 1em; }
 
 /* Bios */
 .media-object {
@@ -56,7 +56,7 @@
 
 /* Call to action */
 #callToAction {
-  margin-top: 25px; }
+  margin-top: 2em; }
 
 #letsRoll {
   color: #e8a137; }

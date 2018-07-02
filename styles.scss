@@ -5,11 +5,13 @@ $color-bg: #efe9c9;
 $color-button: #e8a137;
 $color-button-hover: #e88936;
 
+$std-spacing: 2em;
+
 /* Navigation bar */
 
 #navigationRow
 {
-    margin-bottom: 25px;
+    margin-bottom: $std-spacing;
 }
 
 .navbar-custom
@@ -24,7 +26,7 @@ $color-button-hover: #e88936;
 
 .navbar-brand
 {
-    margin-right: 60px;
+    margin-right: 4em;
 }
 
 /* Homepage - Jumbotrons */
@@ -44,7 +46,7 @@ h1
 
 #footerRow
 {
-    margin-top: 50px;
+    margin-top: 3em;
 }
 
 #footerRow a
@@ -61,7 +63,7 @@ h1
 
 .thumbnail
 {
-    margin-top: 25px;
+    margin-top: $std-spacing;
 }
 
 .thumbnailImage
@@ -74,8 +76,8 @@ h1
 
 .faq
 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /* Bios */
@@ -102,7 +104,7 @@ h1
 /* Call to action */
 #callToAction
 {
-    margin-top: 25px;
+    margin-top: $std-spacing;
 }
 
 #letsRoll
