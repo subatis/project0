@@ -12,6 +12,10 @@
 .navbar-custom {
   background-color: #f7e371 !important; }
 
+.nav-item {
+  margin-left: 0;
+  margin-right: 0; }
+
 .nav-item:hover {
   background-color: #f7c171; }
 
@@ -33,6 +37,15 @@ table {
 
 table, th, td {
   border: 1px solid black; }
+
+table {
+  font-family: helvetica; }
+  table th {
+    font-variant: small-caps;
+    font-size: 1.25em; }
+  table td {
+    font-weight: lighter;
+    font-size: 1em; }
 
 #table-footnotes {
   font-size: small;

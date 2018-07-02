@@ -29,6 +29,12 @@ $rounded-borders: 15px;
     background-color: $color-nav !important;
 }
 
+.nav-item
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .nav-item:hover
 {
     background-color: $color-navHover;
@@ -63,6 +69,23 @@ table
 table, th, td
 {
     border: 1px solid black;
+}
+
+table
+{
+    font-family: helvetica;
+
+    th
+    {
+        font-variant: small-caps;
+        font-size: 1.25em;
+    }
+
+    td
+    {
+        font-weight: lighter;
+        font-size: 1em;
+    }
 }
 
 #pricing-row
