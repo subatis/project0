@@ -1,19 +1,37 @@
+/* Global values */
+$color-nav: #f7e371;
+$color-navHover: #f7c171;
+
+$color-bg: #efe9c9;
+
 /* Navigation bar */
+
+#navigationRow
+{
+    margin-bottom: 25px;
+}
 
 .navbar-custom
 {
-    background-color: #f7e371 !important;
+    background-color: $color-nav !important;
 }
 
 .nav-item:hover
 {
-    background-color: #f7c171;
+    background-color: $color-navHover;
 }
 
 .navbar-brand
 {
     margin-right: 60px;
 }
+
+/* Homepage - Jumbotrons */
+.jumbotron
+{
+    background-color: $color-bg;
+}
+
 
 /* Footer */
 

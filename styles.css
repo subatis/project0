@@ -1,4 +1,8 @@
+/* Global values */
 /* Navigation bar */
+#navigationRow {
+  margin-bottom: 25px; }
+
 .navbar-custom {
   background-color: #f7e371 !important; }
 
@@ -7,6 +11,10 @@
 
 .navbar-brand {
   margin-right: 60px; }
+
+/* Homepage - Jumbotrons */
+.jumbotron {
+  background-color: #efe9c9; }
 
 /* Footer */
 #footerRow {
