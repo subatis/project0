@@ -52,10 +52,22 @@ table {
   font-style: italic; }
 
 /* About page */
-.media-object {
-  width: 175px;
-  height: 200px; }
-
+@media (min-width: 0px) {
+  .media-object {
+    width: 52px;
+    height: 60px; } }
+@media (min-width: 300px) {
+  .media-object {
+    width: 105px;
+    height: 120px; } }
+@media (min-width: 500px) {
+  .media-object {
+    width: 140px;
+    height: 160px; } }
+@media (min-width: 768px) {
+  .media-object {
+    width: 175px;
+    height: 200px; } }
 /* General */
 .page-element {
   margin-bottom: 2em;
