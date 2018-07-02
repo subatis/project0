@@ -16,10 +16,10 @@
 .jumbotron {
   background-color: #efe9c9; }
 
-/* Titles */
 /* Footer */
 #footerRow {
-  margin-top: 3em; }
+  margin-top: 3em;
+  background-color: #f7e371; }
 
 #footerRow a {
   color: #e8a137; }
@@ -28,6 +28,11 @@
   color: #e88936; }
 
 /* Thumbnail galleries */
+.services-element {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  background-color: #efe9c9; }
+
 .thumbnail {
   margin-top: 2em; }
 

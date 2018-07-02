@@ -35,18 +35,12 @@ $std-spacing: 2em;
     background-color: $color-bg;
 }
 
-/* Titles */
-h1
-{
-
-}
-
-
 /* Footer */
 
 #footerRow
 {
     margin-top: 3em;
+    background-color: $color-nav;
 }
 
 #footerRow a
@@ -60,6 +54,13 @@ h1
 }
 
 /* Thumbnail galleries */
+
+.services-element
+{
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    background-color: $color-bg;
+}
 
 .thumbnail
 {
