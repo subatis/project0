@@ -12,22 +12,11 @@
 .navbar-brand {
   margin-right: 4em; }
 
-/* Homepage - Jumbotrons */
+/* Homepage */
 .jumbotron {
   background-color: #efe9c9; }
 
-/* Footer */
-#footerRow {
-  margin-top: 3em;
-  background-color: #f7e371; }
-
-#footerRow a {
-  color: #e8a137; }
-
-#footerRow a:hover {
-  color: #e88936; }
-
-/* Thumbnail galleries */
+/* Services page */
 .services-element {
   margin-bottom: 2em;
   padding-bottom: 1em;
@@ -40,12 +29,11 @@
   width: 241px;
   height: 200px; }
 
-/* FAQ */
 .faq {
   margin-top: 1em;
   margin-bottom: 1em; }
 
-/* Bios */
+/* About page */
 .media-object {
   width: 175px;
   height: 200px; }
@@ -67,6 +55,17 @@
   color: #e8a137; }
 
 #letsRoll:hover {
+  color: #e88936; }
+
+/* Footer */
+#footerRow {
+  margin-top: 3em;
+  background-color: #f7e371; }
+
+#footerRow a {
+  color: #e8a137; }
+
+#footerRow a:hover {
   color: #e88936; }
 
 /*# sourceMappingURL=styles.css.map */
