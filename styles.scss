@@ -6,6 +6,7 @@ $color-button: #e8a137;
 $color-button-hover: #e88936;
 
 $std-spacing: 2em;
+$rounded-borders: 15px;
 
 /* Navigation bar */
 
@@ -37,28 +38,10 @@ $std-spacing: 2em;
 
 /* Services page */
 
-.services-element
-{
-    margin-bottom: 2em;
-    padding-bottom: 1em;
-    background-color: $color-bg;
-}
-
-.thumbnail
-{
-    margin-top: $std-spacing;
-}
-
 .thumbnailImage
 {
     width: 241px;
     height: 200px;
-}
-
-.faq
-{
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 /* Pricing page */
@@ -77,6 +60,7 @@ table, th, td
 {
     background-color: $color-bg;
     padding-top: 1em;
+    border-radius: $rounded-borders;
 }
 
 #tableFootnotes
@@ -91,6 +75,16 @@ table, th, td
 {
     width: 175px;
     height: 200px;
+}
+
+/* General */
+.page-element
+{
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: $rounded-borders;
+    background-color: $color-bg;
 }
 
 /* Buttons */

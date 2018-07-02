@@ -17,21 +17,12 @@
   background-color: #efe9c9; }
 
 /* Services page */
-.services-element {
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  background-color: #efe9c9; }
-
 .thumbnail {
-  margin-top: 2em; }
+  /*margin-top: $std-spacing;*/ }
 
 .thumbnailImage {
   width: 241px;
   height: 200px; }
-
-.faq {
-  margin-top: 1em;
-  margin-bottom: 1em; }
 
 /* Pricing page */
 table {
@@ -42,7 +33,8 @@ table, th, td {
 
 #pricingRow {
   background-color: #efe9c9;
-  padding-top: 1em; }
+  padding-top: 1em;
+  border-radius: 15px; }
 
 #tableFootnotes {
   font-size: small;
@@ -52,6 +44,14 @@ table, th, td {
 .media-object {
   width: 175px;
   height: 200px; }
+
+/* General */
+.page-element {
+  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 15px;
+  background-color: #efe9c9; }
 
 /* Buttons */
 [role=button] {
