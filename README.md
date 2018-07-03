@@ -47,3 +47,13 @@ Project Reqs (this was mostly a checklist for my own sake):
 -SCSS variables defined at top of styles.scss, used throughout
 -SCSS nesting used for pricing table in styles.scss, lines 74-89
 -SCSS inheritance used to define a %std-element near top of styles.scss, used for pricing-row, page-element
+
+SOURCES:
+Mostly used the Bootstrap documentation for things like:
+-The starter template
+-Components
+-Help with rows/columns
+-Utility classes
+
+Used the !important tag to override the nav color; not sure if this is the best approach but got this from
+https://stackoverflow.com/questions/46499994/how-to-change-the-default-navbar-background-color
